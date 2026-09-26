@@ -53,6 +53,22 @@ const GUNS = [
     description:
       'The other pump gun. Twin action bars, a simple safety on the tang, and a price that leaves money for ammunition.',
   },
+  {
+  name: 'SIG Sauer P320',
+  type: 'Pistol',
+  caliber: '9mm',
+  price: 699,
+  image: '/guns/pistol.svg',
+  description: 'A catalog entry for a modular pistol.',
+},
+{
+  name: 'Benelli M4',
+  type: 'Shotgun',
+  caliber: '12 Gauge',
+  price: 1899,
+  image: '/guns/shotgun.svg',
+  description: 'A catalog entry for a semi-automatic shotgun.',
+  },
 ]
 
 export default GUNS
